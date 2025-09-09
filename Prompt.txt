@@ -1,0 +1,14 @@
+cd "C:\Users\10677648\Desktop\AI Poject\testdesaigner"
+aws configure
+npm init -y
+npm install express node-fetch dotenv
+npm pkg set type=module
+npm start
+
+.\ngrok.exe config add-authtoken 31pIEnGSDW74YdiJUUok6oP3Keg_5NcF9G8QWgjFAux182A9
+.\ngrok.exe http 3000
+
+
+======
+
+ 
